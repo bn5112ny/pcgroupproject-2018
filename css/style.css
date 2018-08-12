@@ -15,9 +15,18 @@
     box-sizing: border-box;
     text-align: center;
 }
+strong {
+    font-family: 'Arial', sans-serif;
+    font-size: 200%;
+}
 
 header {
      background-image: url("../images/paperbag3.jpg")
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 a {
@@ -65,10 +74,12 @@ h3, h4, h5, h6 {
 }
 
 p {
-
     font-family: 'Arial', sans-serif;
     font-size: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
 }
+
 
 /* Navbar container */
 .navbar {
@@ -99,7 +110,7 @@ p {
 
 .recipes {
     font-family: 'Milonga', 'Arial', sans-serif;
-    font-size: large;
+    font-size: x-large;
     color: #81D5E6;
 }
 
@@ -113,8 +124,8 @@ p {
 }
 
 .bddfood {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
 }
 
 .section-1 {
@@ -130,6 +141,7 @@ footer {
     text-align: center;
     background: #81D5E6;
     margin-top: 20px;
+    height: 250px;
 }
 
 
@@ -163,11 +175,19 @@ footer a:hover {
 
 .ret-top {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    border-bottom-color: #FEE274;
-   
+    bottom: 20px;
+    right: 10px;
+    font-family: 'Milonga', sans-serif;
+    color: #35454D;
+    padding-top: 20px;
+
 }
+
+.silverware {
+    width: 35px;
+    margin: 5px 5px 0px 0px;
+}
+
 
 .up {
     font-family: 'Milonga', sans-serif;
@@ -176,8 +196,9 @@ footer a:hover {
 
 .copy {
     font-family: 'Milonga', sans-serif;
-    padding: 20px 20px 20px 20px;
     color: white;
+    background: #81D5E6;
+    
 }
 
 .food {
