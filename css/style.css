@@ -24,10 +24,10 @@ header {
      background-image: url("../images/paperbag3.jpg")
 }
 
-img {
-    width: 100%;
+/*img {
+    width: ;
     height: auto;
-}
+}*/
 
 a {
     text-decoration: none;
